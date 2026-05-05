@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Nisa Nur ŞEN-->
+<!--Adnan Menderes Üniversitesi Yönetim Bilişim Sistemleri-->
+<!--233201042-->
+   <title>Uzman Sistem </title> 
+</head>
+<body>
+    <div id="baslangic" >
+    <h1 style="color:rgb(165, 101, 42);">Uzman sistem nedir?</h1>
+    <p style=  "font-family:Verdana, Geneva, Tahoma, sans-serif;">
+        Uzman sistemler, belirli alanlarda insan uzmanlığı gerektiren sorunlara çözüm üretebilmek için gerçek kişilerden edilinilen bilgileri temel alır. 
+        Bu sistemler, genellikle karmaşık sorunları çözmek veya karar vermek için kullanılır. 
+        Bir uzman sistem, önceden tanımlanmış bilgi tabanında bulunan kuralları ve bilgileri kullanarak sorunları çözer veya karar verir. Bu sebeple "bilgi-tabanlı sistem" olarak da adlandırılırlar.
+        Bu yazılımların mantığı; bilgilerin bilgi tabanalarına depolanıp daha sonra problemlerle karşılaşıldığında bu bilgi tabanlarının üzerinde yapılan çıkarımlarla sonuçlara ulaşmaya çalışılması şeklindedir.
+        </p>     
+<h1 style="color:rgb(185, 124, 49);">Uzman Sistemlerin Tarihçesi</h1>
+<p style=  "font-family:Verdana, Geneva, Tahoma, sans-serif;"> Uzman sistemler, 1950’li yıllardan itibaren geliştirilmeye başlandı.
+    John McCarthy, Marvin Minsky ve diğer araştırmacılar yapay zeka alanında çalışmalar yaparak uzman sistemlerin temellerini attılar.
+     1970’li yıllarda pekçok uzman sistem geliştirildi. 1980’li yılların başından itibaren, akademik hayattan ticari hayata geçiş yapmış ve bu dönemde oldukça yoğun içerikli programlar uygulamaya konulmuştur.  Bu sistemler, insan uzmanlarının bilgisini taklit ederek karmaşık sorunları çözmek için kullanılıyor.</p>
+
+<h1 style="color:rgb(158, 104, 38);">Benim Uzman Sistemim</h1>   
+<p style=  "font-family:Verdana, Geneva, Tahoma, sans-serif;">
+Benim uzman sistemim, Türk ve Dünya edebiyatından bazı türlerde kitap önerisi almak isteyenler içindir.</p>
+     <h1 style="color:rgb(167, 113, 63)">Kitap önerisinde bulunabilir misin?</h1> 
+     <input type="button" value="Başlayalım!"style="font-size:20px" onclick="baslangicSorusu();"> 
+     
+    </button> 
+   </div>
+
+   <div id="soru1" style="display: none;" >
+    <h2>Hangisini okumayı daha çok seversiniz?</h2> 
+    <button type= "button" style="font-size:20px; color:brown" onclick="secim1();" >Türk Edebiyatı</button>
+    <button type= "button"style="font-size:20px; color:brown"onclick="secim2();">Dünya Edebiyatı</button>
+   </div>
+
+   <div id="soru2" style="display:none;">
+    <h2>Hangi türü daha çok seversiniz?</h2>
+    <button type= "button" style="font-size:20px; color:rgb(165, 42, 79 )" onclick ="cevap1();">Roman</button>
+    <button type= "button"  style="font-size:20px; color:rgb(165, 42, 79)" onclick ="cevap2()">Şiir</button>
+    <button type= "button" style="font-size:20px; color:rgb(165, 42, 79)" onclick ="cevap3()">Deneme</button>
+</div>
+ 
+<div id="yerliRoman" style="display:none;">
+<h3 style="color:blue"> İşte sizin için Türk edebiyatından bazı roman önerileri..</h3>
+<pre>
+Mai ve Siyah - Halit Ziya Uşaklıgil 
+Kürk Mantolu Madonna - Sabahattin Ali
+Tutunamayanlar - Oğuz Atay
+Çalıkuşu - Reşat Nuri Güntekin
+İnce Memed  - Yaşar Kemal
+Saatleri Ayarlama Enstitüsü - Ahmet Hamdi Tanpınar
+Kuyucaklı Yusuf - Sabahattin Ali
+Hababam Sınıfı - Rıfat Ilgaz
+Aylak Adam - Yusuf Atılgan
+Aşk-ı Memnu - Halid Ziya Uşaklıgil
+Dokuzuncu Hariciye Koğuşu - Peyami Safa
+Kinyas ve Kayra - Hakan Günday
+Ateşten Gömlek - Halide Edip Adıvar
+Eylül - Mehmet Rauf
+Kara Kitap - Orhan Pamuk
+Mai ve Siyah - Halit Ziya Uşaklıgil
+Puslu Kıtalar Atlası - İhsan Oktay Anar
+Yaprak Dökümü - Reşat Nuri Güntekin
+İntibah - Namık Kemal
+Yaban - Yakup Kadri Karaosmanoğlu
+</pre>
+</div>
+
+<div id="yerliSiir" style="display:none;">
+<h3 style="color:blueviolet">İşte sizin için Türk edebiyatından bazı şiir kitabı önerileri..</h3>
+<pre>
+Nazım Hikmet - Memleketimden İnsan Manzaraları
+Ahmet Arif - Hasretinden Prangalar Eskittim
+Cemal Süreya - Sevda Sözleri
+Turgut Uyar - Büyük Saat
+Cemal Süreya – Üvercinka 
+Özdemir Asaf- Yalnızlık Paylaşılmaz
+Orhan Veli Kanık- Bütün Şiirleri
+Orhan Veli Kanık- Bütün Şiirleri
+Necip Fazıl Kısakürek- Çile
+Cahit Sıtkı Tarancı - Otuz Beş Yaş
+Can Yücel - Sevgi Duvarı
+Ataol Behramoğlu - Aşk İki Kişiliktir
+Cahit Zarifoğlu - Yedi Güzel Adam
+    </pre>
+    </div>
+
+    <div id="yerliDeneme" style="display:none;">
+    <h3 style="color:rgb(226, 43, 43)">İşte sizin için Türk edebiyatından bazı deneme önerileri..</h3>
+        <pre>
+Salah Birsel – Boğaziçi Şıngır Mıngır
+Bedri Rahmi  Eyüboğlu – Delifişek
+Nurullah Ataç – Günlerin Getirdiği
+Ahmet Rasim – Şehir Mektupları
+Ahmet Haşim – Frankfurt Seyahatnamesi
+Suut Kemal Yetkin – Edebiyat Üzerine Denemeler
+Cemil Meriç – Bu Ülke
+Sabahattin Eyüboğlu – Mavi ve Kara
+Vedat Günyol – Dile Gelseler
+Zülfü Livaneli - Bizi sürükleyen nehir: hayat üstüne düşünceler
+            
+        </pre>
+    </div>
+    <div id="dunyaTur" style="display:none;">
+        <h2>Hangi türü daha çok seversiniz?</h2>
+        <button type= "button" style="font-size:20px; color:rgb(24, 93, 158)" onclick ="kitap1();">Roman</button>
+        <button type= "button"  style="font-size:20px; color:rgb(24, 93, 158)" onclick ="kitap2();">Felsefe</button>
+        <button type= "button" style="font-size:20px; color:rgb(24, 93, 158)" onclick ="kitap3();">Deneme</button>
+    </div>
+<div id="dunyaRoman"style="display:none;">
+<h3 style="color:rgb(76, 3, 145)">İşte sizin için Dünya edebiyatından bazı roman önerileri..</h3>
+<pre>
+    Martin Eden – Jack London
+    Savaş ve Barış - Lev Nikolayeviç Tolstoy
+    Martı Jonathan Livingston - Richard Bach
+    Fareler ve İnsanlar - John Steinbeck
+    Yüzyıllık Yalnızlık - Gabriel García Márquez
+    Uçurtma Avcısı - Khaled Hosseini
+    Fahrenheit 451 - Ray Bradbury 
+    İnsancıklar - Fyodor Mihayloviç Dostoyevski
+    Çavdar Tarlasında Çocuklar - Jerome David Salinger
+    Bulantı - Jean Paul Sartre
+    Sol Ayağım - Christy Brown
+    Hayvan Çiftliği - George Orwell
+    Sefiller – Victor Hugo
+    Bülbülü Öldürmek – Harper Lee
+    Uğultulu Tepeler - Emily Bronte
+    Monte Cristo Kontu - Alexandre Dumas
+    Körlük - Jose Saramago
+    İki Şehrin Hikayesi - Charles Dickens
+    1984 - George Orwell
+    Suç ve Ceza - Fyodor Mihayloviç Dostoyevski
+    Anna Karenina - Lev Nikolayeviç Tolstoy
+    Şeker Portakalı - Jose Mauro de Vasconcelos 
+</pre>
+</div>
+<div id="dunyaFelsefe"style="display:none;">
+    <h3 style="color:rgb(0, 119, 0)">İşte sizin için Dünya edebiyatından bazı felsefe kitabı önerileri..</h3>
+<pre>
+     Sokrates'in Savunması - Platon
+     Devlet - Platon
+     Tanrılar Okulu - Stefano D'Anna
+     Utopia - Thomas More
+     Toplum Sözleşmesi - Jean-Jacques Rousseau
+     Her Şeye Sahipsiniz Kendiniz Hariç! - Osho 
+     Böyle Söyledi Zerdüşt - Friedrich Nietzsche
+     Var mısın ki Yok Olmaktan Korkuyorsun? - Farabi
+     İtiraflar - Augustinus
+     Etika - Spinoza
+     Varlık ve Hiçlik - Sarte
+</pre>
+</div>
+<div id="dunyaDeneme" style="display:none;">
+<h3 style="color:rgb(255, 2, 179)">İşte sizin için Dünya edebiyatından bazı deneme kitapları..</h3>
+<pre>
+     İnsanlığın Yıldızının Parladığı Anlar - Stefan Zweig Denemeler - Michel de Montaigne
+     Doğa - Ralph Waldo Emerson 
+     Dalgalar - Virginia Woolf
+     Yabancı - Albert Camus 
+     Cesur Yeni Dünya - Aldous Huxley
+     Fotoğraf Üzerine Düşünceler - Susan Sontag 
+     Kendinizi Kaybedin -  Joan Didion
+     Eğlenin ve Ölün - David Foster Wallace 
+     Değişim Zamanı - Zadie Smith
+     Edebiyat ve Sanat Yazıları - Marcel Proust
+     Koşmasaydım Yazamazdım - Haruki Murakami
+</pre>
+</div>
+   </body>
+    <script>
+   function baslangicSorusu() {
+      baslangic.style.display= "none";
+      soru1.style.display="block";
+    }
+   function secim1() {
+    soru1.style.display="none";   
+    soru2.style.display="block";
+    cevap1.style.display="block";
+    cevap2.style.display="block";
+    cevap3.style.display="block";
+}
+function cevap1() {
+    soru2.style.display="none";
+    yerliRoman.style.display="block";
+}
+  
+function cevap2() {
+    soru2.style.display="none";
+    yerliSiir.style.display="block";
+}
+ function cevap3(){
+    soru2.style.display="none";
+    yerliDeneme.style.display="block" ;
+ }
+function secim2() {
+soru1.style.display="none";   
+dunyaTur.style.display="block";
+}
+function kitap1() {
+dunyaTur.style.display="none";
+dunyaRoman.style.display="block" ;
+}
+function kitap2() {
+dunyaTur.style.display="none";
+dunyaFelsefe.style.display="block" ;
+}
+function kitap3() {
+dunyaTur.style.display="none" ;
+dunyaDeneme.style.display="block"
+}
+    
+
+
+
+</script>
+</html>
